@@ -1,0 +1,1 @@
+ Paxos 算法必须具有幂等性：一旦提案（Proposal）中的值（Value）被选定（Chosen），那么只要还在此次 Paxos 流程中，就算不断按照 Paxos 的规则重复步骤，未来被 Chosen 的 Value 都会是同一个
